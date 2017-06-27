@@ -1,0 +1,411 @@
+
+
+article, header, footer, figure, section, form, nav
+{
+    display: block;
+}
+
+html
+{
+   background-color: rgb(255,255,255) 
+}
+
+body
+{
+    background-color: rgb(250,235,215);
+    margin: 0px auto;
+    padding: 0px;
+    width: 98%;
+    max-width: 950px;
+    min-width: 250px;
+    
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 125%;
+    line-height: 1.5em;
+    position: relative;
+}
+
+header h2
+{
+	background-color: rgb(30, 77, 43);
+	color: rgba(255, 255, 255, 0.8);
+	line-height: 1.4em;
+	text-align: center;
+}
+
+section
+{
+    margin:36px;   
+    clear:both;
+}
+
+nav
+{
+   width: 100%;
+   margin: 0px auto;
+}
+
+nav ul
+{
+   background-color: rgb(206, 164, 75);
+   list-style-type: none;
+}
+
+nav ul li
+{
+  font-size: 87.5%;
+  float: left;
+  padding-bottom: 30px;
+  text-align: center;
+  width: 25%;
+}
+
+nav ul li:first-of-type
+{
+   text-transform: uppercase;
+}
+
+table
+{
+   border-width: 6px;
+   border-style: outset;
+   border-color: rgb(55, 102, 55);
+   border-collapse: collapse;
+   font-family: Arial,Helvetica,sans-serif;
+   font-size: 0.85em;
+   line-height: 1.3em;
+   width: 100%
+}
+
+table col.firstcol
+{
+   width: 37%;
+}
+
+table tbody td:first-of-type
+{
+   font-weight: 600;
+}
+
+table tbody td:nth-of-type(2)
+{
+   font-style: italic;
+}
+table th, table td
+{
+   border: 1px solid gray;
+}
+
+table thead
+{
+   background-color: rgb(206, 164, 75);
+}
+
+table caption
+{
+   font-weight: bold;
+   font-size: 1.2em;
+}
+
+table tbody td
+{
+   padding: 5px;
+   vertical-align: top;
+}
+
+table tbody tr:nth-of-type(odd)
+{
+   background-color: rgb(213, 213, 184);
+}
+
+table tbody tr:nth-of-type(even)
+{
+   background-color: rgb(215, 230, 220);
+}
+
+table#allMovies
+{
+   width: 70%;
+   margin: 0px auto;
+}
+
+table#allMovies td
+{
+   font-style: normal;
+}
+
+table#merchandise
+{
+   border-style: hidden;
+   width: 70%;
+   margin: 0px auto;
+}
+
+table#merchandise tbody tr
+{
+   background-color: white;
+   border-style: hidden;
+   height: 100px;
+}
+
+table#merchandise tbody td
+{
+   border-style: hidden;
+   text-align: center;
+   padding-bottom: 20px;
+}
+
+figure
+{
+   text-align: center;
+}
+
+figure img
+{
+   height: 300px;
+   width: 250px;
+}
+
+article#MovieDetail
+{
+   margin: 20px;
+}
+
+article#MovieDetail dt
+{
+   font-weight: bold;
+}
+
+article#MovieDetail dd
+{
+   font-style: italic;
+}
+
+article#MovieDetail p
+{
+   text-align: center;
+}
+
+#error
+{
+   background-color: red; 
+   border-width: 1px; 
+   border-color: orange; 
+   border-style: solid;
+   text-align: center;
+   width: 50%;
+   margin:0px auto;
+}
+
+footer
+{
+   clear: both;
+}
+
+footer address
+{
+   background-color: rgb(200, 195, 114);
+   color: rgba(20, 20, 200, 0.8);
+   font-style: normal;
+   font-variant: small-caps;
+   font-size: 0.9em;
+   line-height: 2em;
+   font-family: 'Times New Roman', Times, Serif;
+   text-align: center;
+}
+
+form#SearchByMultiCriteria
+{
+  margin-left: 10%;
+}
+
+form#loginForm
+{
+  margin-left: 25%;
+}
+
+form#addUserForm
+{
+  margin-left: 25%;
+}
+
+form#addEditForm
+{
+  margin-left: 2%;
+}
+
+form#SearchByMultiCriteria label
+{
+  display: block;
+  float: left;
+  width: 30%;
+  margin:10px 0px;
+  font-weight: bold;
+}
+
+form#SearchByMultiCriteria input
+{
+   display: block;
+   float: left;
+   width: 60%;
+   height: 30px;
+   font-size: 1.2em;
+   margin:10px 0px;
+}
+
+form#SearchByMultiCriteria input[type="submit"]
+{
+   height: 40px;
+   width: 20%;
+   margin-left: 30%;
+}
+
+form#loginForm label
+{
+  width: 20%;
+  margin:10px 0px;
+  font-weight: bold;
+}
+
+form#loginForm input
+{
+   width: 40%;
+   height: 30px;
+   font-size: 1.2em;
+   margin-top:10px;
+   margin-left: 20px;
+}
+
+form#loginForm input[type="submit"]
+{
+   height: 40px;
+   width: 20%;
+   margin-left: 30%;
+}
+
+form#addEditForm label
+{
+  width: 20%;
+  margin:10px 0px;
+  font-weight: bold;
+}
+
+form#addEditForm label#rr
+{
+  float: left;
+  width: 40%;
+  margin:10px 0px;
+  font-weight: bold;
+}
+
+form#addEditForm input
+{
+   width: 75%;
+   height: 30px;
+   font-size: 1.2em;
+   margin-top:10px;
+   margin-left: 10px;
+}
+
+form#addEditForm select
+{
+   width: 5%;
+   height: 30px;
+   font-size: 1.2em;
+   margin-top:10px;
+}
+
+form#addEditForm input[type="submit"]
+{
+   clear: both;
+   height: 40px;
+   width: 20%;
+   margin-left: 50%;
+}
+
+form#addUserForm label
+{
+  float: left;
+  width: 27%;
+  margin-top:0px;
+  margin-bottom: 0px;
+  margin-right: 50px;
+  font-weight: bold;
+}
+
+form#addUserForm input
+{
+   display: block;
+   height: 25px;
+   font-size: 1.2em;
+   margin-top:0px;
+   margin-bottom: 0px;
+}
+
+form#addUserForm input[type="submit"]
+{
+   height: 40px;
+   width: 20%;
+   margin-left: 30%;
+}
+
+input.ten
+{
+   width: 25%;
+}
+
+input.twenty
+{
+   width: 50%;
+}
+
+input#state
+{
+   width: 5%;
+}
+
+input#mailinglist
+{
+   width: 3%;
+}
+
+#searchmaxrows
+{
+   width:5%;
+}
+
+textarea
+{
+   display: block;
+   float: left;
+   width: 60%;
+   height: 130px;
+   font-size: 1.2em;
+   margin:10px 0px;
+}
+
+input.sm
+{
+   width: 30%;
+}
+
+select
+{
+   display: block;
+   float: left;
+   font-size: 1.2em;
+   margin:10px 0px;
+}
+
+input#proceed
+{
+   width: 210px;
+}
+
+.err
+{
+   float: left;
+   margin-left: 10px;
+   color: red;
+   display: none;
+}
